@@ -1,0 +1,206 @@
+[
+  {
+    "stage": 0,
+    "stageName": "Introductions",
+    "theme": "",
+    "questions": [
+      {
+        "template": "instructions",
+        "text": "Welcome to the Amazing Land of Adventures! You’re here because you’re excited to play games, learn something new, and meet other adventure-seekers. Everybody is welcomed! No need to be shy!",
+        "image": "statics/images/monster.png"
+      },
+      {
+        "template": "two-choices",
+        "text": "The gates will be opened to let you experience a brand-new adventure. Are you ready?",
+        "image": "",
+        "choices": [
+          {
+            "text": "Yes",
+            "image": "statics/images/monster-yes.png"
+          },
+          {
+            "text": "No",
+            "image": "statics/images/monster-no.png"
+          }
+        ],
+        "answer": null
+      },
+      {
+        "template": "one-input",
+        "text": "Ooops! Not too fast fellow adventure-seeker! Before we open the gate, it'll be nice to know your name and where are you from. (example: Cris of Barangay San Vicente)",
+        "image": "statics/images/monster-hi.png",
+        "inputType": "text",
+        "answer": null
+      },
+      {
+        "template": "banner",
+        "text": "",
+        "image": "statics/images/monster.png"
+      },
+      {
+        "template": "instructions",
+        "text": "Hello there (name)! It's great to have you here at the Amazing Land of Adventures. Remember: you need to earn five values badges so you will officially earn your adventure-seeker trophy. Carry on each stage with an honest heart and a strong mind!",
+        "image": "statics/images/monster.png"
+      },
+      {
+        "template": "instructions",
+        "text": "Ready? But oh... what do we have here...another gate? Oops looks like there are a couple more questions you need to answer to open the other gate.",
+        "image": "statics/images/monster.png"
+      },
+      {
+        "template": "multi-single-imaged",
+        "text": "Are you…? Just click your answer!",
+        "image": "",
+        "choices": [
+          {
+            "text": "Boy",
+            "value": "boy",
+            "image": "statics/images/boy.png"
+          },
+          {
+            "text": "Girl",
+            "value": "girl",
+            "image": "statics/images/girl.png"
+          },
+          {
+            "text": "Gay",
+            "value": "gay",
+            "image": "statics/images/gay.png"
+          },
+          {
+            "text": "Lesbian",
+            "value": "lesbian",
+            "image": "statics/images/lesbian.png"
+          },
+          {
+            "text": "Transgender",
+            "value": "transgender",
+            "image": "statics/images/transgender.png"
+          }
+        ],
+        "answer": null
+      },
+      {
+        "template": "one-input",
+        "text": "And if you don't mind, can you type in your age? I mean, how old are you?",
+        "image": "statics/images/monster-hi.png",
+        "inputType": "number",
+        "answer": null
+      },
+      {
+        "template": "multi-multi-imaged",
+        "text": "Just choose the right answers for you to complete your gears before you begin the first stage!",
+        "image": "",
+        "choices": [
+          {
+            "text": "I am a happy person",
+            "value": "happy",
+            "image": "statics/images/boy.png"
+          },
+          {
+            "text": "I am always excited to try new things",
+            "value": "excited",
+            "image": "statics/images/girl.png"
+          },
+          {
+            "text": "I prefer to be alone",
+            "value": "alone",
+            "image": "statics/images/gay.png"
+          },
+          {
+            "text": "I like having friends",
+            "value": "friends",
+            "image": "statics/images/lesbian.png"
+          },
+          {
+            "text": "I like myself",
+            "value": "myself",
+            "image": "statics/images/transgender.png"
+          },
+          {
+            "text": "I do not like myself",
+            "value": "noself",
+            "image": "statics/images/idiot.png"
+          }
+        ],
+        "answer": null
+      },
+      {
+        "template": "multi-multi-text",
+        "text": "Oh wow! You have your clothes, boots and cap complete. All you need is the backpack for all your essentials. Check everything here so we know what to put in your backpack.",
+        "image": "",
+        "choices": [
+          {
+            "text": "I like to hang out with friends",
+            "value": "friends",
+            "image": ""
+          },
+          {
+            "text": "I like to stay home with my family",
+            "value": "family",
+            "image": ""
+          },
+          {
+            "text": "I like to be in school",
+            "value": "school",
+            "image": ""
+          },
+          {
+            "text": "I like to go out in the streets",
+            "value": "streets",
+            "image": ""
+          },
+          {
+            "text": "I like to play",
+            "value": "play",
+            "image": ""
+          },
+          {
+            "text": "I like to read",
+            "value": "read",
+            "image": ""
+          },
+          {
+            "text": "I like to listen to music",
+            "value": "music",
+            "image": ""
+          }
+        ],
+        "answer": null
+      }
+    ]
+  },
+  {
+    "stage": 1,
+    "stageName": "Family Town",
+    "theme": "",
+    "questions": [
+      {
+        "template": "banner",
+        "text": "Looks like you’re all set to enter stage 1… Family Town!",
+        "image": "statics/images/monster.png"
+      },
+      {
+        "template": "instructions",
+        "text": "Earn your love badge here when you complete all the questions.",
+        "image": "statics/images/monster.png"
+      },
+      {
+        "template": "two-choices",
+        "text": "They say home is where the heart is. Do you live at home with your family?",
+        "image": "",
+        "choices": [
+          {
+            "text": "Yes",
+            "image": "statics/images/monster-yes.png"
+          },
+          {
+            "text": "No",
+            "image": "statics/images/monster-no.png"
+          }
+        ],
+        "answer": null
+      }
+    ]
+  }
+]
