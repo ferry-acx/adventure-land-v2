@@ -1,0 +1,1537 @@
+[
+    {
+        "stage": 0,
+        "stageName": "Introductions",
+        "theme": "theme-primary",
+        "questions": [
+            {
+                "id": "S0Q001",
+                "template": "instructions",
+                "text": "Welcome to the Amazing Land of Adventures! You’re here because you’re excited to play games, learn something new, and meet other adventure-seekers. Everybody is welcomed! No need to be shy!",
+                "image": "statics/images/mascot/mother-info.png",
+                "audio": [
+                    "statics/audio/questions/S0Q001.mp3"
+                ]
+            },
+            {
+                "id": "S0Q002",
+                "template": "two-choices",
+                "text": "The gates will be opened to let you experience a brand-new adventure. Are you ready?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S0Q002.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png"
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png"
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S0Q003",
+                "template": "one-input",
+                "text": "Oops! Not so fast, adventurer. Before we begin I'd like to know who you are. What's your name?",
+                "image": "statics/images/mascot/mother-wonder.png",
+                "audio": [
+                    "statics/audio/questions/S0Q003.mp3"
+                ],
+                "inputType": "text",
+                "answer": null,
+                "config": "name"
+            },
+            {
+                "id": "S0Q004",
+                "template": "banner",
+                "text": "Red Gate Open",
+                "image": "statics/images/red-gate.png"
+            },
+            {
+                "id": "S0Q005",
+                "template": "instructions",
+                "text": "Nice to meet you, {name}! My name is ADA. I will be your guide in this amazing world of adventures! For you to earn the ADVENTURER TROPHY, we'll need to collect five badges throughout our adventure. Keep your heart honest and your mind strong.",
+                "image": "statics/images/mascot/mother-happy.png",
+                "audio": [
+                    "statics/audio/questions/S0Q005.mp3"
+                ]
+            },
+            {
+                "id": "S0Q006",
+                "template": "instructions",
+                "text": "Ready? Oh! What's this? Another gate? Looks like we need to open a few more questions to proceed.",
+                "image": "statics/images/mascot/mother-shock.png",
+                "audio": [
+                    "statics/audio/questions/S0Q006.mp3"
+                ]
+            },
+            {
+                "id": "S0Q007",
+                "template": "multi-single-imaged",
+                "text": "Can you tell me your gender?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S0Q007.mp3"
+                ],
+                "config": "gender",
+                "choices": [
+                    {
+                        "text": "Boy",
+                        "value": "boy",
+                        "image": "statics/images/mascot/mother-cheer.png"
+                    },
+                    {
+                        "text": "Girl",
+                        "value": "girl",
+                        "image": "statics/images/mascot/mother-cheer.png"
+                    },
+                    {
+                        "text": "Gay",
+                        "value": "gay",
+                        "image": "statics/images/mascot/mother-cheer.png"
+                    },
+                    {
+                        "text": "Lesbian",
+                        "value": "lesbian",
+                        "image": "statics/images/mascot/mother-cheer.png"
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S0Q008",
+                "template": "one-input",
+                "text": "You look very young. How old are you?",
+                "image": "statics/images/mascot/mother-wonder.png",
+                "audio": [
+                    "statics/audio/questions/S0Q008.mp3"
+                ],
+                "inputType": "number",
+                "answer": null
+            },
+            {
+                "id": "S0Q009",
+                "template": "banner",
+                "text": "Tadaa! The gate opened. Let's hurry inside.",
+                "image": "statics/images/red-gate.png",
+                "audio": [
+                    "statics/audio/questions/S0Q009.mp3"
+                ]
+            },
+            {
+                "id": "S0Q010",
+                "template": "instructions",
+                "text": "The Amazing Land of Adventures has five stages. For each stage, there are questions that will be asked of you. No worries! There are no right or wrong answers, Only honest ones!",
+                "image": "statics/images/mascot/mother-teach.png",
+                "audio": [
+                    "statics/audio/questions/S0Q010.mp3"
+                ]
+            },
+            {
+                "id": "S0Q011",
+                "template": "instructions",
+                "text": "Before we move to the first stage, let’s get our gears ready first.",
+                "image": "statics/images/mascot/mother-introduce.png",
+                "audio": [
+                    "statics/audio/questions/S0Q011.mp3"
+                ]
+            },
+            {
+                "id": "S0Q012",
+                "template": "multi-multi-text",
+                "text": "For a little warm-up let's start with something simple. Which of the following describes you?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S0Q012.mp3",
+                    "statics/audio/answers/S0Q012.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "I am a happy person",
+                        "value": "happy",
+                        "image": "statics/images/mascot/mother-cheer.png"
+                    },
+                    {
+                        "text": "I am always excited to try new things",
+                        "value": "excited",
+                        "image": "statics/images/mascot/mother-cheer.png"
+                    },
+                    {
+                        "text": "I prefer to be alone",
+                        "value": "alone",
+                        "image": "statics/images/mascot/mother-cheer.png"
+                    },
+                    {
+                        "text": "I like having friends",
+                        "value": "friends",
+                        "image": "statics/images/mascot/mother-cheer.png"
+                    },
+                    {
+                        "text": "I like myself",
+                        "value": "myself",
+                        "image": "statics/images/mascot/mother-cheer.png"
+                    },
+                    {
+                        "text": "I do not like myself",
+                        "value": "noself",
+                        "image": "statics/images/mascot/mother-cheer.png"
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S0Q013",
+                "template": "multi-multi-text",
+                "text": "Easy, right? Here's another one for good luck. Choose everything that you like!",
+                "audio": [
+                    "statics/audio/questions/S0Q013.mp3",
+                    "statics/audio/answers/S0Q013.mp3"
+                ],
+                "image": "",
+                "choices": [
+                    {
+                        "text": "I like to hang out with friends",
+                        "value": "friends",
+                        "image": ""
+                    },
+                    {
+                        "text": "I like to stay home with my family",
+                        "value": "family",
+                        "image": ""
+                    },
+                    {
+                        "text": "I like to be in school",
+                        "value": "school",
+                        "image": ""
+                    },
+                    {
+                        "text": "I like to go out in the streets",
+                        "value": "streets",
+                        "image": ""
+                    },
+                    {
+                        "text": "I like to play",
+                        "value": "play",
+                        "image": ""
+                    },
+                    {
+                        "text": "I like to read",
+                        "value": "read",
+                        "image": ""
+                    },
+                    {
+                        "text": "I like to listen to music",
+                        "value": "music",
+                        "image": ""
+                    }
+                ],
+                "answer": null
+            }
+        ]
+    },
+    {
+        "stage": 1,
+        "stageName": "Family Town",
+        "theme": "theme-family-town",
+        "questions": [
+            {
+                "id": "S1Q001",
+                "template": "instructions",
+                "text": "You're all set. Let's now head to the first stage, FAMILY TOWN!",
+                "image": "statics/images/mascot/mother-cheer.png",
+                "audio": [
+                    "statics/audio/questions/S1Q001.mp3"
+                ]
+            },
+            {
+                "id": "S1Q002",
+                "template": "banner",
+                "text": "Family Town",
+                "image": "statics/images/banners/family-town.jpg"
+            },
+            {
+                "id": "S1Q003",
+                "template": "instructions",
+                "text": "Completing the questions in this stage will earn you the LOVE BADGE!.",
+                "image": "statics/images/mascot/mother-info.png",
+                "audio": [
+                    "statics/audio/questions/S1Q003.mp3"
+                ]
+            },
+            {
+                "id": "S1Q004",
+                "template": "two-choices",
+                "text": "They say home is where the heart is. Do you live at home with your family?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S1Q004.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png",
+                        "skip": 1
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png",
+                        "skip": 0
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S1Q005",
+                "template": "multi-single-text",
+                "text": "If you’re not with your family, where do you live?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S1Q005.mp3",
+                    "statics/audio/answers/S1Q005.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "With my grandparents",
+                        "image": "",
+                        "skip": 1
+                    },
+                    {
+                        "text": "With my aunt/uncle",
+                        "image": "",
+                        "skip": 1
+                    },
+                    {
+                        "text": "With my siblings",
+                        "image": "",
+                        "skip": 1
+                    },
+                    {
+                        "text": "On the street with other kids",
+                        "image": "",
+                        "skip": 1
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S1Q006",
+                "template": "multi-single-text",
+                "text": "Does your parents live with you at home?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S1Q006.mp3",
+                    "statics/audio/answers/S1Q006.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Both parents live with me",
+                        "image": ""
+                    },
+                    {
+                        "text": "Only my father lives with me",
+                        "image": ""
+                    },
+                    {
+                        "text": "Only my mother lives with me",
+                        "image": ""
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S1Q007",
+                "template": "multi-single-text",
+                "text": "Let’s play a quick numbers game here. How many siblings do you have?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S1Q007.mp3",
+                    "statics/audio/answers/S1Q007.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "None!",
+                        "image": "",
+                        "skip": 3
+                    },
+                    {
+                        "text": "1",
+                        "image": "",
+                        "skip": 0
+                    },
+                    {
+                        "text": "2",
+                        "image": "",
+                        "skip": 0
+                    },
+                    {
+                        "text": "3",
+                        "image": "",
+                        "skip": 0
+                    },
+                    {
+                        "text": "More than 3!",
+                        "image": "",
+                        "skip": 0
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S1Q008",
+                "template": "two-choices",
+                "text": "Do you get along with your siblings?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S1Q008.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png",
+                        "skip": 2
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png",
+                        "skip": 0
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S1Q009",
+                "template": "two-choices",
+                "text": "Do you have quarrels or arguments",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S1Q009.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png",
+                        "skip": 0
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png",
+                        "skip": 1
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S1Q010",
+                "template": "one-input",
+                "text": "If you have fights, what kind?",
+                "image": "statics/images/mascot/mother-wonder.png",
+                "audio": [
+                    "statics/audio/questions/S1Q010.mp3"
+                ],
+                "inputType": "text",
+                "answer": null
+            },
+            {
+                "id": "S1Q011",
+                "template": "multi-multi-text",
+                "text": "Honesty is the best policy so we ask you to click on the answers that best applies to you. Okay?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S1Q011.mp3",
+                    "statics/audio/answers/S1Q011.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "My parents care for me",
+                        "image": ""
+                    },
+                    {
+                        "text": "My parents do not care about their kids",
+                        "image": ""
+                    },
+                    {
+                        "text": "My parents work to give us good life",
+                        "image": ""
+                    },
+                    {
+                        "text": "My parents do not have work",
+                        "image": ""
+                    },
+                    {
+                        "text": "My family is always out of money",
+                        "image": ""
+                    },
+                    {
+                        "text": "We have enough food on the table everyday",
+                        "image": ""
+                    },
+                    {
+                        "text": "I have very loving family",
+                        "image": ""
+                    },
+                    {
+                        "text": "My parents argue a lot",
+                        "image": ""
+                    },
+                    {
+                        "text": "I argue a lot with my siblings",
+                        "image": ""
+                    },
+                    {
+                        "text": "I have very loving siblings",
+                        "image": ""
+                    },
+                    {
+                        "text": "My relatives are mean to me",
+                        "image": ""
+                    },
+                    {
+                        "text": "My relatives are very caring",
+                        "image": ""
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S1Q012",
+                "template": "banner",
+                "text": "Congratulations! You just earned the LOVE BADGE!",
+                "image": "statics/images/badges/Love.png",
+                "audio": [
+                    "statics/audio/questions/S1Q012.mp3"
+                ]
+            },
+            {
+                "id": "S1Q013",
+                "template": "one-input",
+                "text": "Can you guess where the next stage is? It' sa place where you learn how to read and write.",
+                "image": "statics/images/mascot/mother-wonder.png",
+                "audio": [
+                    "statics/audio/questions/S1Q013.mp3"
+                ]
+            }
+        ]
+    },
+    {
+        "stage": 2,
+        "stageName": "School Town",
+        "theme": "theme-school-point",
+        "questions": [
+            {
+                "id": "S2Q001",
+                "template": "banner",
+                "text": "Correct! It's at school. The second stage of adventure takes place in... SCHOOL POINT!",
+                "image": "statics/images/banners/school.jpg",
+                "audio": [
+                    "statics/audio/questions/S2Q001.mp3"
+                ]
+            },
+            {
+                "id": "S2Q002",
+                "template": "two-choices",
+                "text": "Do you go to school?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S2Q002.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png",
+                        "skip": 1
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png",
+                        "skip": 0
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S2Q003",
+                "template": "multi-single-imaged",
+                "text": "No? That's sad. Can you tell me why you're not in school?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S2Q003.mp3",
+                    "statics/audio/answers/S2Q003.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "We don't have money",
+                        "image": "statics/images/mascot/mother-investigate.png",
+                        "skip": 1
+                    },
+                    {
+                        "text": "I wanted to stop",
+                        "image": "statics/images/mascot/mother-cheer.png",
+                        "skip": 1
+                    },
+                    {
+                        "text": "There are bullies",
+                        "image": "statics/images/mascot/mother-tired.png",
+                        "skip": 1
+                    },
+                    {
+                        "text": "I have to work",
+                        "image": "statics/images/mascot/mother-teach.png",
+                        "skip": 1
+                    },
+                    {
+                        "text": "School is boring",
+                        "image": "statics/images/mascot/mother-no.png",
+                        "skip": 1
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S2Q004",
+                "template": "one-input",
+                "text": "Yes? Which school do you go to?",
+                "image": "statics/images/mascot/mother-wonder.png",
+                "audio": [
+                    "statics/audio/questions/S2Q004.mp3"
+                ],
+                "inputType": "text",
+                "answer": null
+            },
+            {
+                "id": "S2Q005",
+                "template": "two-choices",
+                "text": "Do you like going to school?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S2Q005.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png",
+                        "skip": 0
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png",
+                        "skip": 1
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S2Q006",
+                "template": "multi-multi-text",
+                "text": "Awesome! Why do you like school? Choose everything you like about it.",
+                "condition": "Yes",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S2Q006.mp3",
+                    "statics/audio/answers/S2Q006.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "I do well in school",
+                        "image": "",
+                        "skip": 1
+                    },
+                    {
+                        "text": "I have a lot of friends in school",
+                        "image": "",
+                        "skip": 1
+                    },
+                    {
+                        "text": "I like to study",
+                        "image": "",
+                        "skip": 1
+                    },
+                    {
+                        "text": "My teachers are very nice to me",
+                        "image": "",
+                        "skip": 1
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S2Q007",
+                "template": "multi-multi-text",
+                "text": "Can you choose the reasons why you don't like school?",
+                "condition": "No",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S2Q007.mp3",
+                    "statics/audio/answers/S2Q007.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "I don't understand the lessons",
+                        "image": ""
+                    },
+                    {
+                        "text": "The teachers are not nice to me",
+                        "image": ""
+                    },
+                    {
+                        "text": "Some kids bully me",
+                        "image": ""
+                    },
+                    {
+                        "text": "I find school boring",
+                        "image": ""
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S2Q008",
+                "template": "two-choices",
+                "text": "Friends are people who make you smile brighter, laugh louder, and live better. Do you have friends like these in school?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S2Q008.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png",
+                        "skip": 0
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png",
+                        "skip": 2
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S2Q009",
+                "template": "one-input",
+                "text": "What are the names of you friends?",
+                "image": "statics/images/mascot/mother-investigate.png",
+                "audio": [
+                    "statics/audio/questions/S2Q009.mp3"
+                ],
+                "condition": "Yes",
+                "inputType": "text",
+                "answer": null,
+                "skip": 0
+            },
+            {
+                "id": "S2Q010",
+                "template": "multi-multi-text",
+                "text": "What do you like to do with them? Choose as many as possible.",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S2Q010.mp3",
+                    "statics/audio/answers/S2Q010.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "We cut classes",
+                        "image": ""
+                    },
+                    {
+                        "text": "We study together",
+                        "image": ""
+                    },
+                    {
+                        "text": "We hang out in school",
+                        "image": ""
+                    },
+                    {
+                        "text": "We go out after school",
+                        "image": ""
+                    },
+                    {
+                        "text": "We engage in different mischiefs",
+                        "image": ""
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S2Q011",
+                "template": "banner",
+                "text": "Great job! You just earned yourself a shiny HARD WORK BADGE! Keep up the good work!",
+                "image": "statics/images/badges/Hardwork.png",
+                "audio": [
+                    "statics/audio/questions/S2Q011.mp3"
+                ]
+            },
+            {
+                "id": "S2Q012",
+                "template": "instructions",
+                "text": "Was that hard? Well I am sure you got that just right! Ready for stage 3. Breathe in, breathe out!",
+                "image": "statics/images/mascot/mother-info.png",
+                "audio": [
+                    "statics/audio/questions/S2Q012.mp3"
+                ]
+            }
+        ]
+    },
+    {
+        "stage": 3,
+        "stageName": "Internet Village",
+        "theme": "theme-internet-village",
+        "questions": [
+            {
+                "id": "S3Q001",
+                "template": "instructions",
+                "text": "Re-check your gears because we’re about to enter… Internet Village!",
+                "image": "statics/images/banners/internet-village.jpg",
+                "audio": [
+                    "statics/audio/questions/S3Q001.mp3"
+                ]
+            },
+            {
+                "id": "S3Q002",
+                "template": "banner",
+                "text": "Internet Village",
+                "image": "statics/images/banners/internet-village.jpg"
+            },
+            {
+                "id": "S3Q003",
+                "template": "multi-multi-text",
+                "text": "Okay! Let’s check what gadgets you have! If you have more than one, then go ahead check them!",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S3Q003.mp3",
+                    "statics/audio/answers/S3Q003.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "I have an android phone",
+                        "image": "statics/images/android.png"
+                    },
+                    {
+                        "text": "I have access to a computer",
+                        "image": "statics/images/computer.png"
+                    },
+                    {
+                        "text": "I have access to the internet",
+                        "image": "statics/images/internet-globe.png"
+                    },
+                    {
+                        "text": "I access the internet through the Piso-net",
+                        "image": "statics/images/peso.png"
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S3Q004",
+                "template": "two-choices",
+                "text": "Do you like to surf the internet?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S3Q004.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png"
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png"
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S3Q005",
+                "template": "multi-multi-text",
+                "text": "So when you’re connected to the internet, which sites do you go to?",
+                "condition": "Yes",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S3Q005.mp3",
+                    "statics/audio/answers/S3Q005.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "I use my email",
+                        "image": ""
+                    },
+                    {
+                        "text": "I use Facebook",
+                        "image": ""
+                    },
+                    {
+                        "text": "Messenger",
+                        "image": ""
+                    },
+                    {
+                        "text": "I go to dating sites",
+                        "image": ""
+                    },
+                    {
+                        "text": "I watch YouTube",
+                        "image": ""
+                    },
+                    {
+                        "text": "I go to chat sites",
+                        "image": ""
+                    },
+                    {
+                        "text": "I engage in cam-to-cam conversations",
+                        "image": ""
+                    },
+                    {
+                        "text": "I access pornography",
+                        "image": ""
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S3Q006",
+                "template": "instructions",
+                "text": "Thank you for being honest. For the next questions you only need to answer yes or no. Just keep calm and answer on!",
+                "image": "statics/images/mascot/mother-info.png",
+                "audio": [
+                    "statics/audio/questions/S3Q006.mp3"
+                ]
+            },
+            {
+                "id": "S3Q007",
+                "template": "two-choices",
+                "text": "Have you been sent lewd photographs by strangers through the internet?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S3Q007.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png"
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png"
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S3Q008",
+                "template": "two-choices",
+                "text": "Have you been asked by a stranger to give your nude photo?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S3Q008.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png"
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png"
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S3Q009",
+                "template": "two-choices",
+                "text": "Have someone sent you videos of them performing sexual acts?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S3Q009.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png"
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png"
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S3Q010",
+                "template": "two-choices",
+                "text": "Have you accessed pornographic sites?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S3Q010.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png"
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png"
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S3Q011",
+                "template": "two-choices",
+                "text": "Has someone offered you money in exchange for sexual acts online?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S3Q011.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png"
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png"
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S3Q012",
+                "template": "banner",
+                "text": "WOW! That wasn’t easy. But you did it because of your honesty! And for that, here’s your much deserved badge.",
+                "image": "statics/images/badges/Honesty.png",
+                "audio": [
+                    "statics/audio/questions/S3Q012.mp3"
+                ]
+            }
+        ]
+    },
+    {
+        "stage": 4,
+        "stageName": "Sad Zone",
+        "theme": "theme-sad-zone",
+        "questions": [
+            {
+                "id": "S4Q001",
+                "template": "instructions",
+                "text": "Now, try to relax. Breathe in, breathe out. Stretch your arms and count 1 to 10. Breathe in, breathe out. Feeling much better? Good! Because we’re about to enter The Sad Zone.",
+                "image": "statics/images/mascot/mother-cheer.png",
+                "audio": [
+                    "statics/audio/questions/S4Q001.mp3"
+                ]
+            },
+            {
+                "id": "S4Q002",
+                "template": "banner",
+                "text": "Sad Zone",
+                "image": "statics/images/banners/sad-zone-2.jpg"
+            },
+            {
+                "id": "S4Q003",
+                "template": "instructions",
+                "text": "We feel different emotions. We can be happy, angry, disgusted. We can also be sad, especially when we experience bad things in life. Sometimes the bad experience stays on. Want to know a secret? Bad experiences can slowly go away when you share you experience with people you trust who can help you become better.",
+                "image": "statics/images/mascot/mother-cry.png",
+                "audio": [
+                    "statics/audio/questions/S4Q003.mp3"
+                ]
+            },
+            {
+                "id": "S4Q004",
+                "template": "two-choices",
+                "text": "At the end of this stage, you’ll get a courage badge. So, are you ready to be brave?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S4Q004.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png"
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png"
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S4Q005",
+                "template": "two-choices",
+                "text": "Have your parents or guardians hit you physically?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S4Q005.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png",
+                        "skip": 0
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png",
+                        "skip": 1
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S4Q006",
+                "template": "multi-multi-text",
+                "text": "How did they hurt you?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S4Q006.mp3",
+                    "statics/audio/answers/S4Q006.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Spanked",
+                        "image": ""
+                    },
+                    {
+                        "text": "Pinched",
+                        "image": ""
+                    },
+                    {
+                        "text": "Hit on the head",
+                        "image": ""
+                    },
+                    {
+                        "text": "Slapped",
+                        "image": ""
+                    },
+                    {
+                        "text": "Made to kneel on mongo seeds",
+                        "image": ""
+                    },
+                    {
+                        "text": "Tied to a tree/post",
+                        "image": ""
+                    },
+                    {
+                        "text": "Others",
+                        "image": ""
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S4Q007",
+                "template": "multi-multi-text",
+                "text": "Have you experienced any of the following?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S4Q007.mp3",
+                    "statics/audio/answers/S4Q007.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "My parents/guardian shout at me when they are angry.",
+                        "image": ""
+                    },
+                    {
+                        "text": "People call me names",
+                        "image": ""
+                    },
+                    {
+                        "text": "People say hurtful things about me",
+                        "image": ""
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S4Q008",
+                "template": "two-choices",
+                "text": "Did strangers touch your private parts?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S4Q008.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png"
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png"
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S4Q009",
+                "template": "two-choices",
+                "text": "Has anyone attempted to force you to have sex with them?",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S4Q009.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png",
+                        "skip": 0
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png",
+                        "skip": 1
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S4Q010",
+                "template": "multi-multi-text",
+                "text": "Who tried to force you?",
+                "condition": "Yes",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S4Q010.mp3",
+                    "statics/audio/answers/S4Q010.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Parents",
+                        "image": ""
+                    },
+                    {
+                        "text": "Neighbor",
+                        "image": ""
+                    },
+                    {
+                        "text": "Relatives",
+                        "image": ""
+                    },
+                    {
+                        "text": "Siblings",
+                        "image": ""
+                    },
+                    {
+                        "text": "Teacher",
+                        "image": ""
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S4Q011",
+                "template": "instructions",
+                "text": "Thank you for your honesty, brave warrior! Now, just say yes or no to the following. Ready?",
+                "image": "statics/images/mascot/mother-happy.png",
+                "audio": [
+                    "statics/audio/questions/S4Q011.mp3"
+                ]
+            },
+            {
+                "id": "S4Q012",
+                "template": "two-choices",
+                "text": "I have friends who get paid for sex",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S4Q012.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png"
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png"
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S4Q013",
+                "template": "two-choices",
+                "text": "I have experienced being paid for sex",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S4Q013.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png"
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png"
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S4Q014",
+                "template": "two-choices",
+                "text": "I have friends who get paid for cybersex",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S4Q014.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png"
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png"
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S4Q015",
+                "template": "two-choices",
+                "text": "I know someone who pimps children for sex",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S4Q015.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png"
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png"
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S4Q016",
+                "template": "banner",
+                "text": "What a courageous heart you have! You are worthy of being called a brave warrior. Here's your COURAGE BADGE!",
+                "image": "statics/images/badges/Courage.png",
+                "audio": [
+                    "statics/audio/questions/S4Q016.mp3"
+                ]
+            }
+        ]
+    },
+    {
+        "stage": 5,
+        "stageName": "Dream Land",
+        "theme": "theme-dream-district",
+        "questions": [
+            {
+                "id": "S5Q001",
+                "template": "instructions",
+                "text": "One more badge from stage 5 and you will be officially declared as adventure-seeker and join a community of lifelong learners. Check your gears because this is your final stage.",
+                "image": "statics/images/mascot/mother-angry.png",
+                "audio": [
+                    "statics/audio/questions/S5Q001.mp3"
+                ]
+            },
+            {
+                "id": "S5Q002",
+                "template": "banner",
+                "text": "Dream Land",
+                "image": "statics/images/banners/dream-land.jpg"
+            },
+            {
+                "id": "S5Q003",
+                "template": "instructions",
+                "text": "This is stage 5 and it’s called… the Dream District. Here, you’re free to share what do you want to be and how you see yourself in the future.",
+                "image": "statics/images/mascot/mother-introduce.png",
+                "audio": [
+                    "statics/audio/questions/S5Q003.mp3"
+                ]
+            },
+            {
+                "id": "S5Q004",
+                "template": "two-choices",
+                "text": "I think I have a bright future ahead of me",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S5Q004.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png"
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png"
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S5Q005",
+                "template": "two-choices",
+                "text": "I want to graduate from college",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S5Q005.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png"
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png"
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S5Q006",
+                "template": "two-choices",
+                "text": "I want to help my parents in the future",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S5Q006.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png"
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png"
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S5Q007",
+                "template": "two-choices",
+                "text": "I have nothing to look forward to in the future",
+                "image": "",
+                "audio": [
+                    "statics/audio/questions/S5Q007.mp3",
+                    "statics/audio/answers/yes.mp3",
+                    "statics/audio/answers/no.mp3"
+                ],
+                "choices": [
+                    {
+                        "text": "Yes",
+                        "image": "statics/images/mascot/mother-yes.png"
+                    },
+                    {
+                        "text": "No",
+                        "image": "statics/images/mascot/mother-no.png"
+                    }
+                ],
+                "answer": null
+            },
+            {
+                "id": "S5Q008",
+                "template": "one-input",
+                "text": "When I grow up, I want to be a...",
+                "image": "statics/images/work.png",
+                "audio": [
+                    "statics/audio/questions/S5Q008.mp3"
+                ],
+                "answer": null
+            },
+            {
+                "id": "S5Q009",
+                "template": "instructions",
+                "text": "Congratulations on completing the final stage! Here's you HOPE BADGE, adventurer.",
+                "image": "statics/images/badges/Hope.png",
+                "audio": [
+                    "statics/audio/questions/S5Q009.mp3"
+                ]
+            },
+            {
+                "id": "S5Q010",
+                "template": "banner",
+                "text": "Finish Line",
+                "image": "statics/images/finish-line.png"
+            }
+        ]
+    },
+    {
+        "stage": 6,
+        "stageName": "Finish Line",
+        "theme": "primary",
+        "questions": [
+            {
+                "id": "S6Q001",
+                "template": "instructions",
+                "text": "I'm so proud of you for making it this far! This ADVENTURER TROPHY is rightfully yours. May you continue to study, learn and enjoy life to the fullest!",
+                "image": "statics/images/mascot/mother-happy.png",
+                "audio": [
+                    "statics/audio/questions/S6Q001.mp3"
+                ]
+            },
+            {
+                "id": "S6Q002",
+                "template": "banner",
+                "text": "Your love, hard work, honesty, courage, and hope badges were earned because of your commitment. Use them very wisely . Carry your trophy with humility and remember to never stop learning. Go, grow and glow!",
+                "image": "statics/images/mascot/mother-ok.png",
+                "audio": [
+                    "statics/audio/questions/S6Q002.mp3"
+                ]
+            }
+        ]
+    }
+]

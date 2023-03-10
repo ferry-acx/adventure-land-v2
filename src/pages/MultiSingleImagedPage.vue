@@ -1,74 +1,110 @@
 <template>
-  <q-page padding class="row full-width full-height items-center justify-center">
-    <div class="col-12">
-      <div class="row q-ma-lg">
-        <div class="col-12 text-center">
-          <div class="text-grey-8 text-subtitle1">
-              {{ current.question.text }}
-          </div>
+    <q-page class="theme-multi-single-imaged multi-single-imaged-container row items-center">
+        <div class="col-12 justify-center">
+            <div class="row q-mb-xl">
+                <div class="col-12 text-center">
+                    <div class="text-h6">{{ current.question.text }}</div>
+                </div>
+            </div>
+            <div class="choice-row row wrap q-ma-md items-center justify-center">
+                <div
+                    class="col-5 choice-container"
+                    v-for="[index, choice] of current.question.choices.entries()"
+                    :key="index"
+                >
+                    <div class="row justify-center full-height full-width text-center">
+                        <q-btn
+                            v-bind:class="[current.singleAnswer === index ? 'active-choice' : 'inactive-choice']"
+                            @click="answerClicked(index)"
+                        >
+                            <div class="row">
+                                <div class="col">
+                                    <div class="row">
+                                        <img :src="choice.image" class="image" />
+                                    </div>
+                                    <div class="row choice-label">
+                                        <div class="col text-center">
+                                            <span class="text-caption text-center">{{ choice.text }}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </q-btn>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="row wrap q-ma-md justify-center items center">
-        <div
-          class="col-5 q-ma-sm"
-          v-for="[index, choice] of current.question.choices.entries()"
-          :key="index"
-        >
-          <div class="row justify-center full-height full-width text-center">
-            <q-btn
-              v-bind:class="[active === index ? activeClass : inactiveClass]"
-              @click="answerClicked(index)"
-            >
-              <img :src="choice.image" style="height: 100px; width: 100px; object" />
-              <span class="text-caption text-center">{{ choice.text }}</span>
-            </q-btn>
-          </div>
-        </div>
-      </div>
-    </div>
-  </q-page>
+    </q-page>
 </template>
 
 <script>
-import { sync, call } from 'vuex-pathify'
+import { sync, call } from 'vuex-pathify';
 
 export default {
-  name: 'MultiSingleImagedPage',
-  computed: {
-    current: sync('game/active')
-  },
-  data () {
-    return {
-      active: null,
-      activeClass: 'bg-secondary text-white',
-      inactiveClass: 'bg-white text-secondary'
-    }
-  },
-  methods: {
-    ...call('game/*'),
-    answerClicked (index) {
-      this.active = index
+    name: 'MultiSingleImagedPage',
+    computed: {
+        current: sync('game/active')
+    },
+    data() {
+        return {};
+    },
+    methods: {
+        ...call('game/*'),
+        answerClicked(index) {
+            const currentActive = {
+                ...this.current,
+                singleAnswer: index
+            };
 
-      const answer = {
-        id: index,
-        value: this.current.question.choices[index].text
-      }
+            this.setActive(currentActive);
 
-      this.setAnswer(answer)
+            const answer = {
+                id: index,
+                value: this.current.question.choices[index].text,
+                skip: this.current.question.choices[index].skip
+            };
+
+            this.setAnswer(answer);
+        }
     }
-  }
-}
+};
 </script>
-<style lang="sass" scoped>
-.body-text
-  font-size: 16px
-  font-weight: bold
-  position: relative
+<style lang="scss" scoped>
+@import '../css/themes/primary.scss';
+@import '../css/themes/family-town.scss';
+@import '../css/themes/school-point.scss';
+@import '../css/themes/internet-village.scss';
+@import '../css/themes/sad-zone.scss';
+@import '../css/themes/dream-district.scss';
 
-.button-text
-  position: absolute
-  width: 100%
-  bottom: 0
-  height: 25%
-  background: rgba(0, 0, 0, 0.3)
+.multi-single-imaged-container {
+    padding: 30px 30px;
+
+    h5 {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .choice-container {
+        margin: 10px auto;
+
+        .choice-label {
+            min-height: 40px;
+            margin: 5px 0px;
+            align-items: center;
+
+            .text-caption {
+                font-size: 0.8em;
+            }
+        }
+
+        .image {
+            max-width: 100px;
+            max-height: 100px;
+        }
+    }
+}
 </style>

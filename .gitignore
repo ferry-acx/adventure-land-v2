@@ -2,9 +2,15 @@
 .thumbs.db
 node_modules
 
+# Firebase
+.firebase
+
 # Quasar core related directories
 .quasar
 /dist
+
+# Mobile build
+/android
 
 # Cordova related directories and files
 /src-cordova/node_modules

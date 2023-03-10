@@ -1,20 +1,16 @@
 <template>
-  <q-layout view="hHh lpR fFf">
-
-    <q-page-container>
-      <router-view />
-    </q-page-container>
-
-  </q-layout>
+    <q-layout view="hHh lpR fFf">
+        <q-page-container>
+            <router-view />
+        </q-page-container>
+    </q-layout>
 </template>
 
 <script>
 export default {
-  data () {
-    return {
+    data() {
+        return {};
     }
-  }
-}
+};
 </script>
-<style lang="css" scoped>
-</style>
+<style lang="css" scoped></style>

@@ -1,0 +1,131 @@
+// $theme-color-1: #6c0a74;
+$theme-color-1: #fff;
+$theme-color-2: #e1a966;
+$theme-color-3: #9c426f;
+
+.theme-dream-district {
+    .theme-header {
+        background: $theme-color-1;
+        color: $theme-color-2;
+
+        .progress-bar {
+            color: $theme-color-2;
+        }
+    }
+
+    .theme-footer {
+        background: $theme-color-1;
+
+        .next-button {
+            background-color: $theme-color-2;
+            color: $theme-color-3;
+        }
+    }
+
+    // game components
+    .theme-instruction {
+        background: $theme-color-1;
+        color: $theme-color-2;
+    }
+
+    .theme-two-choices {
+        background: $theme-color-1;
+        color: $theme-color-2;
+
+        .active-choice {
+            background: $theme-color-2;
+            color: $theme-color-3;
+        }
+
+        .inactive-choice {
+            background: $theme-color-1;
+            color: $theme-color-2;
+        }
+    }
+
+    .theme-one-input {
+        background: $theme-color-1;
+        color: $theme-color-2;
+
+        .q-field--standout .q-field__control {
+            background-color: $theme-color-3;
+        }
+
+        .q-field--standout.q-field--focused .q-field__control {
+            background-color: $theme-color-2;
+        }
+
+        .q-field--standout .q-field__native {
+            color: $theme-color-2;
+        }
+
+        .q-field--standout.q-field--focused .q-field__native {
+            color: $theme-color-3;
+        }
+    }
+
+    .theme-banner {
+        background: $theme-color-1;
+        color: $theme-color-2;
+    }
+
+    .theme-multi-single-text {
+        background: $theme-color-1;
+        color: $theme-color-2;
+
+        .active-choice {
+            background: $theme-color-2;
+            color: $theme-color-1;
+        }
+
+        .inactive-choice {
+            background: $theme-color-1;
+            color: $theme-color-2;
+        }
+    }
+
+    .theme-multi-single-imaged {
+        background: $theme-color-1;
+        color: $theme-color-2;
+
+        .active-choice {
+            background: $theme-color-2;
+            color: $theme-color-1;
+        }
+
+        .inactive-choice {
+            background: $theme-color-1;
+            color: $theme-color-2;
+        }
+    }
+
+    .theme-multi-multi-text {
+        background: $theme-color-1;
+        color: $theme-color-2;
+
+        .active-choice {
+            background: $theme-color-2;
+            color: $theme-color-1;
+        }
+
+        .inactive-choice {
+            background: $theme-color-1;
+            color: $theme-color-2;
+        }
+    }
+
+    .theme-multi-multi-imaged {
+        background: $theme-color-1;
+        color: $theme-color-2;
+
+        .active-choice {
+            background: $theme-color-2;
+            color: $theme-color-1;
+        }
+
+        .inactive-choice {
+            background: $theme-color-1;
+            color: $theme-color-2;
+        }
+    }
+}

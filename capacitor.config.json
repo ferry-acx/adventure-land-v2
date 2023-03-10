@@ -1,0 +1,13 @@
+{
+  "appId": "com.ada.app",
+  "appName": "Amazing Land of Adventures",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "dist/spa",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}
